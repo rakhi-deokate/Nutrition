@@ -1,0 +1,17 @@
+
+/*--------- Header -------------*/
+header {
+  background: url("https://www.helpguide.org/wp-content/uploads/table-with-grains-vegetables-fruit-768.jpg");
+  background-position: 100% 100%;
+  height: 400px;
+justify-content: center;
+}
+input {
+  border-radius: 20% / 30%;
+ font: times_new_roman;
+  font-size: 25px;
+}
+button {
+  border-radius: 20% / 50%;
+  font-size: 25px;
+}

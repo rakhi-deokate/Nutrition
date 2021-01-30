@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nutrition App</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Nutrition App</h1>
+    </header>
+    <br>
+    <main>
+      <div id="searchBar">
+        <input type="text" id="input" placeholder=" "/>
+        <button id="button">Submit</button>
+      </div>
+
+      <br>
+      <br>
+      <h2>View nutritional information (such as calorie amount, sugar amount, and carbohydrates).</h2>
+      <br>
+      <br>
+
+      <div id="nutritionLabel">
+        <!-- DOM Nutritional Facts Label Goes Here! -->
+      </div>
+      <br>
+    </main>
+    <footer>
+      <div class="footerContainer" >
+        <h3 class="footerFont">
+
+           <a target="_blank" href= "https://www.nutritionix.com/business/api">Nutritionix API</a> <br>
+        </h3>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </body>
+</html>
